@@ -39,18 +39,20 @@ Partial Class frmMain
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(68, 431)
+        Me.btnExit.Location = New System.Drawing.Point(330, 110)
+        Me.btnExit.Margin = New System.Windows.Forms.Padding(2)
         Me.btnExit.Name = "btnExit"
-        Me.btnExit.Size = New System.Drawing.Size(165, 54)
+        Me.btnExit.Size = New System.Drawing.Size(124, 44)
         Me.btnExit.TabIndex = 0
         Me.btnExit.Text = "E&xit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
         'btnCalc
         '
-        Me.btnCalc.Location = New System.Drawing.Point(322, 431)
+        Me.btnCalc.Location = New System.Drawing.Point(330, 49)
+        Me.btnCalc.Margin = New System.Windows.Forms.Padding(2)
         Me.btnCalc.Name = "btnCalc"
-        Me.btnCalc.Size = New System.Drawing.Size(165, 54)
+        Me.btnCalc.Size = New System.Drawing.Size(124, 44)
         Me.btnCalc.TabIndex = 1
         Me.btnCalc.Text = "&Calculate"
         Me.btnCalc.UseVisualStyleBackColor = True
@@ -58,9 +60,10 @@ Partial Class frmMain
         'radDirectSubLoan
         '
         Me.radDirectSubLoan.AutoSize = True
-        Me.radDirectSubLoan.Location = New System.Drawing.Point(7, 21)
+        Me.radDirectSubLoan.Location = New System.Drawing.Point(5, 17)
+        Me.radDirectSubLoan.Margin = New System.Windows.Forms.Padding(2)
         Me.radDirectSubLoan.Name = "radDirectSubLoan"
-        Me.radDirectSubLoan.Size = New System.Drawing.Size(175, 21)
+        Me.radDirectSubLoan.Size = New System.Drawing.Size(134, 17)
         Me.radDirectSubLoan.TabIndex = 2
         Me.radDirectSubLoan.TabStop = True
         Me.radDirectSubLoan.Text = "Direct Subsidized Loan"
@@ -69,9 +72,10 @@ Partial Class frmMain
         'radDirectUnSubLoan
         '
         Me.radDirectUnSubLoan.AutoSize = True
-        Me.radDirectUnSubLoan.Location = New System.Drawing.Point(7, 48)
+        Me.radDirectUnSubLoan.Location = New System.Drawing.Point(5, 39)
+        Me.radDirectUnSubLoan.Margin = New System.Windows.Forms.Padding(2)
         Me.radDirectUnSubLoan.Name = "radDirectUnSubLoan"
-        Me.radDirectUnSubLoan.Size = New System.Drawing.Size(191, 21)
+        Me.radDirectUnSubLoan.Size = New System.Drawing.Size(146, 17)
         Me.radDirectUnSubLoan.TabIndex = 3
         Me.radDirectUnSubLoan.TabStop = True
         Me.radDirectUnSubLoan.Text = "Direct Unsubsidized Loan"
@@ -80,9 +84,10 @@ Partial Class frmMain
         'radDirectPlusLoan
         '
         Me.radDirectPlusLoan.AutoSize = True
-        Me.radDirectPlusLoan.Location = New System.Drawing.Point(7, 75)
+        Me.radDirectPlusLoan.Location = New System.Drawing.Point(5, 61)
+        Me.radDirectPlusLoan.Margin = New System.Windows.Forms.Padding(2)
         Me.radDirectPlusLoan.Name = "radDirectPlusLoan"
-        Me.radDirectPlusLoan.Size = New System.Drawing.Size(142, 21)
+        Me.radDirectPlusLoan.Size = New System.Drawing.Size(111, 17)
         Me.radDirectPlusLoan.TabIndex = 4
         Me.radDirectPlusLoan.TabStop = True
         Me.radDirectPlusLoan.Text = "Direct PLUS Loan"
@@ -93,18 +98,21 @@ Partial Class frmMain
         Me.GroupBox1.Controls.Add(Me.radDirectSubLoan)
         Me.GroupBox1.Controls.Add(Me.radDirectPlusLoan)
         Me.GroupBox1.Controls.Add(Me.radDirectUnSubLoan)
-        Me.GroupBox1.Location = New System.Drawing.Point(66, 277)
+        Me.GroupBox1.Location = New System.Drawing.Point(50, 204)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(235, 109)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2)
+        Me.GroupBox1.Size = New System.Drawing.Size(176, 89)
         Me.GroupBox1.TabIndex = 5
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "GroupBox1"
         '
         'txtLoanAmt
         '
-        Me.txtLoanAmt.Location = New System.Drawing.Point(6, 51)
+        Me.txtLoanAmt.Location = New System.Drawing.Point(4, 41)
+        Me.txtLoanAmt.Margin = New System.Windows.Forms.Padding(2)
         Me.txtLoanAmt.Name = "txtLoanAmt"
-        Me.txtLoanAmt.Size = New System.Drawing.Size(229, 22)
+        Me.txtLoanAmt.Size = New System.Drawing.Size(173, 20)
         Me.txtLoanAmt.TabIndex = 6
         '
         'GroupBox2
@@ -113,9 +121,11 @@ Partial Class frmMain
         Me.GroupBox2.Controls.Add(Me.txtLoanDuration)
         Me.GroupBox2.Controls.Add(Me.txtLoanAmt)
         Me.GroupBox2.Controls.Add(Me.lblLoanAmt)
-        Me.GroupBox2.Location = New System.Drawing.Point(66, 54)
+        Me.GroupBox2.Location = New System.Drawing.Point(50, 44)
+        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(2)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(284, 179)
+        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(2)
+        Me.GroupBox2.Size = New System.Drawing.Size(213, 145)
         Me.GroupBox2.TabIndex = 8
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "GroupBox2"
@@ -124,38 +134,42 @@ Partial Class frmMain
         '
         Me.lblLoanDuration.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lblLoanDuration.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblLoanDuration.Location = New System.Drawing.Point(7, 93)
+        Me.lblLoanDuration.Location = New System.Drawing.Point(5, 76)
+        Me.lblLoanDuration.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblLoanDuration.Name = "lblLoanDuration"
-        Me.lblLoanDuration.Size = New System.Drawing.Size(123, 23)
+        Me.lblLoanDuration.Size = New System.Drawing.Size(93, 19)
         Me.lblLoanDuration.TabIndex = 10
         Me.lblLoanDuration.Text = "Loan Duration:"
         '
         'txtLoanDuration
         '
-        Me.txtLoanDuration.Location = New System.Drawing.Point(6, 119)
+        Me.txtLoanDuration.Location = New System.Drawing.Point(4, 97)
+        Me.txtLoanDuration.Margin = New System.Windows.Forms.Padding(2)
         Me.txtLoanDuration.Name = "txtLoanDuration"
-        Me.txtLoanDuration.Size = New System.Drawing.Size(101, 22)
+        Me.txtLoanDuration.Size = New System.Drawing.Size(77, 20)
         Me.txtLoanDuration.TabIndex = 10
         '
         'lblLoanAmt
         '
         Me.lblLoanAmt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lblLoanAmt.Font = New System.Drawing.Font("Microsoft Sans Serif", 7.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblLoanAmt.Location = New System.Drawing.Point(6, 25)
+        Me.lblLoanAmt.Location = New System.Drawing.Point(4, 20)
+        Me.lblLoanAmt.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblLoanAmt.Name = "lblLoanAmt"
-        Me.lblLoanAmt.Size = New System.Drawing.Size(124, 23)
+        Me.lblLoanAmt.Size = New System.Drawing.Size(94, 19)
         Me.lblLoanAmt.TabIndex = 9
         Me.lblLoanAmt.Text = "Loan Amount:"
         '
         'frmMain
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(704, 507)
+        Me.ClientSize = New System.Drawing.Size(605, 735)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.btnCalc)
         Me.Controls.Add(Me.btnExit)
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "frmMain"
         Me.Text = "StudentLoanCalculator"
         Me.GroupBox1.ResumeLayout(False)

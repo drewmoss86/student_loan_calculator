@@ -1,4 +1,3 @@
-C:\Users\drewc\Documents\CIS 036\StudentLoanCalculatorSolution\StudentLoanCalculatorProject\obj\Debug\StudentLoanCalculatorProject.SplashScreen1.resources
 C:\Users\drewc\Documents\CIS 036\StudentLoanCalculatorSolution\StudentLoanCalculatorProject\obj\Debug\StudentLoanCalculatorProject.frmMain.resources
 C:\Users\drewc\Documents\CIS 036\StudentLoanCalculatorSolution\StudentLoanCalculatorProject\obj\Debug\StudentLoanCalculatorProject.Resources.resources
 C:\Users\drewc\Documents\CIS 036\StudentLoanCalculatorSolution\StudentLoanCalculatorProject\obj\Debug\StudentLoanCalculatorProject.vbproj.GenerateResource.cache
@@ -11,3 +10,4 @@ C:\Users\drewc\Documents\CIS 036\StudentLoanCalculatorSolution\StudentLoanCalcul
 C:\Users\drewc\Documents\CIS 036\StudentLoanCalculatorSolution\StudentLoanCalculatorProject\obj\Debug\StudentLoanCalculatorProject.xml
 C:\Users\drewc\Documents\CIS 036\StudentLoanCalculatorSolution\StudentLoanCalculatorProject\obj\Debug\StudentLoanCalculatorProject.pdb
 C:\Users\drewc\Documents\CIS 036\StudentLoanCalculatorSolution\StudentLoanCalculatorProject\obj\Debug\StudentLoanCalculatorProject.vbprojAssemblyReference.cache
+C:\Users\drewc\Documents\CIS 036\StudentLoanCalculatorSolution\StudentLoanCalculatorProject\obj\Debug\StudentLoanCalculatorProject.splStudentLoanCalc.resources

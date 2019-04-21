@@ -37,7 +37,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateSplashScreen()
-            Me.SplashScreen = Global.StudentLoanCalculatorProject.SplashScreen1
+            Me.SplashScreen = Global.StudentLoanCalculatorProject.splStudentLoanCalc
         End Sub
     End Class
 End Namespace

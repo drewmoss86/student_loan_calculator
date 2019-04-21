@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class SplashScreen1
+Partial Class splStudentLoanCalc
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -24,8 +24,9 @@ Partial Class SplashScreen1
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.lblAppTitle = New System.Windows.Forms.Label()
-        Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
+        Me.prgLoading = New System.Windows.Forms.ProgressBar()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.lblLoading = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'lblAppTitle
@@ -34,38 +35,52 @@ Partial Class SplashScreen1
         Me.lblAppTitle.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.lblAppTitle.Font = New System.Drawing.Font("Broadway", 22.2!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblAppTitle.ForeColor = System.Drawing.Color.White
-        Me.lblAppTitle.Location = New System.Drawing.Point(86, 101)
+        Me.lblAppTitle.Location = New System.Drawing.Point(64, 82)
+        Me.lblAppTitle.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.lblAppTitle.Name = "lblAppTitle"
-        Me.lblAppTitle.Size = New System.Drawing.Size(400, 109)
+        Me.lblAppTitle.Size = New System.Drawing.Size(300, 89)
         Me.lblAppTitle.TabIndex = 0
         Me.lblAppTitle.Text = "Student Loan Calculator"
         Me.lblAppTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'ProgressBar1
+        'prgLoading
         '
-        Me.ProgressBar1.Location = New System.Drawing.Point(86, 354)
-        Me.ProgressBar1.Name = "ProgressBar1"
-        Me.ProgressBar1.Size = New System.Drawing.Size(400, 25)
-        Me.ProgressBar1.TabIndex = 1
-        Me.ProgressBar1.Value = 5
+        Me.prgLoading.Location = New System.Drawing.Point(64, 288)
+        Me.prgLoading.Margin = New System.Windows.Forms.Padding(2)
+        Me.prgLoading.Name = "prgLoading"
+        Me.prgLoading.Size = New System.Drawing.Size(300, 20)
+        Me.prgLoading.TabIndex = 1
+        Me.prgLoading.Value = 5
         '
         'Timer1
         '
         '
-        'SplashScreen1
+        'lblLoading
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.lblLoading.Font = New System.Drawing.Font("Broadway", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblLoading.ForeColor = System.Drawing.Color.White
+        Me.lblLoading.Location = New System.Drawing.Point(169, 266)
+        Me.lblLoading.Name = "lblLoading"
+        Me.lblLoading.Size = New System.Drawing.Size(100, 20)
+        Me.lblLoading.TabIndex = 2
+        Me.lblLoading.Text = "Loading..."
+        '
+        'splStudentLoanCalc
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Green
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.ClientSize = New System.Drawing.Size(573, 649)
+        Me.ClientSize = New System.Drawing.Size(430, 527)
         Me.ControlBox = False
-        Me.Controls.Add(Me.ProgressBar1)
+        Me.Controls.Add(Me.lblLoading)
+        Me.Controls.Add(Me.prgLoading)
         Me.Controls.Add(Me.lblAppTitle)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
-        Me.Name = "SplashScreen1"
+        Me.Name = "splStudentLoanCalc"
         Me.ShowInTaskbar = False
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.ResumeLayout(False)
@@ -73,6 +88,7 @@ Partial Class SplashScreen1
     End Sub
 
     Friend WithEvents lblAppTitle As Label
-    Friend WithEvents ProgressBar1 As ProgressBar
+    Friend WithEvents prgLoading As ProgressBar
     Friend WithEvents Timer1 As Timer
+    Friend WithEvents lblLoading As Label
 End Class
